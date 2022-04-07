@@ -4,7 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector"
 import Backend from "i18next-http-backend"
 import { DateTime } from "luxon"
 import en from "./locales/en/translation.json"
-import de from "./locales/de/translation.json"
+// import de from "./locales/de/translation.json"
 
 i18n
 	// i18next-http-backend
@@ -33,10 +33,11 @@ i18n
 		resources: {
 			en: {
 				translation: en
-			},
+			}
+			/* ,
 			de: {
 				translation: de
-			}
+			} */
 		}
 	})
 
